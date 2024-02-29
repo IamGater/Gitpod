@@ -1,0 +1,49 @@
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.hero__right {
+  max-width: 560px;
+}
+
+.hero-bg {
+  max-width: 630px;
+}
+
+.hero__title {
+  font-size: 80px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.hero__descr {
+  color: #e2e0dd;
+  font-size: 23px;
+}
+.hero__btn-wrapper {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.hero__try {
+  border-radius: 16px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 174, 51);
+  color: #202124;
+  font-weight: 700;
+  padding: 11px 46px;
+}
+
+.hero__open {
+  color: #e2e0dd;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 180px;
+}
+
+.hero__svg-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
+}
