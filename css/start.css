@@ -1,0 +1,21 @@
+.start {
+  padding: 150px 0;
+}
+
+.start__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.start__text {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+}
+.start__cross {
+  color: #a5a3a0;
+  font-size: 54px;
+  font-weight: 400;
+  text-decoration-line: line-through;
+}

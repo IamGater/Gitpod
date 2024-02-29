@@ -1,0 +1,48 @@
+.remote {
+  padding: 100px 0;
+}
+
+.remote__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.remote__title {
+  font-size: 54px;
+  font-weight: 700;
+  color: #fff;
+}
+.remote__descr {
+  font-size: 24px;
+  font-weight: 400;
+  color: #e2e0dd;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.remote__btn-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.remote__chrom {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #202124;
+  background-color: #e2e0dd;
+  border-radius: 9px;
+  box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.1);
+  padding: 7px 12px;
+}
+.remote__firefox {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #202124;
+  background-color: #e2e0dd;
+  border-radius: 9px;
+  box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.1);
+  padding: 7px 12px;
+}

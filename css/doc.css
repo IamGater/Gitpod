@@ -1,0 +1,49 @@
+.doc {
+  padding: 140px 0;
+}
+
+.doc__container {
+  display: flex;
+}
+
+.doc__title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.doc__descr {
+  color: #e2e0dd;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 150px;
+}
+
+.doc__btn-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.doc__builds {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 18px;
+  background: rgb(255, 174, 51);
+  border-radius: 10px;
+  color: #202124;
+}
+
+.doc__document {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 18px;
+  background: rgb(255, 176, 174);
+  border-radius: 10px;
+  color: #202124;
+}
+
+.doc__img {
+  max-width: 590px;
+}
