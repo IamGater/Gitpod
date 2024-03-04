@@ -9,7 +9,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/app.js" />
     <title>Gitpod</title>
   </head>
   <body>
@@ -102,15 +108,58 @@
           and networks.
         </p>
         <div class="remote__btn-wrapper">
-          <a href="" class="remote__chrom"><img src="./img/Chrome.svg" alt="Chrome">Chrome Extension</a>
-          <a href="" class="remote__firefox"><img src="./img/Firefox.svg" alt="Firefox">Firefox Extension</a>
+          <a href="" class="remote__chrom"
+            ><img src="./img/Chrome.svg" alt="Chrome" />Chrome Extension</a
+          >
+          <a href="" class="remote__firefox"
+            ><img src="./img/Firefox.svg" alt="Firefox" />Firefox Extension</a
+          >
         </div>
       </div>
     </section>
-    <!-- <section class="dev">
+    <section class="dev">
       <div class="container dev__container">
         <h1 class="dev__title">Used by 400,000+ developers.</h1>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p class="swiper-slide__descr">GitPod is incredibly cool. In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+              <div class="swiper-slide__user">
+                <div class="user__img">
+                  <img src="./img/user__img1.png" alt="">
+                </div>
+                <div class="swiper-slide__social">
+                  <h3 class="user__name">Ben Halpern</h3>
+                <div class="swiper__who">Creator and Co-founder @forem and @ThePracticalDev</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__descr">Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked. Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p>
+              <div class="swiper-slide__user">
+                <div class="user__img">
+                  <img src="./img/user__img2.png" alt="">
+                </div>
+                <div class="swiper-slide__social">
+                  <h3 class="user__name">Michael Friedrich</h3>
+                <div class="swiper__who">Developer Evangelist @GitLab</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__descr">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+              <div class="swiper-slide__user">
+                <div class="user__img">
+                  <img src="./img/user__img3.png" alt="">
+                </div>
+                <div class="swiper-slide__social">
+                  <h3 class="user__name">Julius Volz</h3>
+                <div class="swiper__who">Creator @PrometheusIO</div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
-    </section> -->
+    </section>
   </body>
 </html>

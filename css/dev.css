@@ -1,0 +1,42 @@
+.dev__title {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  background: #fff;
+  width: 384px;
+  border-radius: 16px;
+  padding: 24px 24px;
+}
+
+.swiper-slide__descr {
+  color: #202124;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.user__name {
+  color: #202124;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.swiper__who {
+  color: #202124;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.swiper-slide__user {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.user__img img{
+  max-width: 48px;
+}

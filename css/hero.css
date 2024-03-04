@@ -1,13 +1,13 @@
 .hero__container {
   display: flex;
   justify-content: space-between;
-  margin-top: 90px;
+  align-items: center;
+  margin-top: 110px;
 }
 
 .hero__right {
   max-width: 560px;
 }
-
 
 .hero-bg {
   max-width: 630px;

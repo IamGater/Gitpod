@@ -4,6 +4,7 @@
 
 .doc__container {
   display: flex;
+  align-items: center;
 }
 
 .doc__title {
@@ -11,7 +12,6 @@
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 10px;
-  margin-top: 50px;
 }
 
 .doc__descr {
