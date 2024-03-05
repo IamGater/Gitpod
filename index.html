@@ -13,9 +13,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/app.js" />
+    <script src="./app.js" defer></script>
     <title>Gitpod</title>
   </head>
   <body>
@@ -57,7 +60,7 @@
             </p>
           </div>
           <div class="hero__svg-wrapper">
-            <img src="./img/fox.svg" alt="" />
+            <img src="./img/gitlab-small.svg" alt="" />
             <img src="./img/github.svg" alt="" />
             <img src="./img/square.svg" alt="" />
           </div>
@@ -123,42 +126,124 @@
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <p class="swiper-slide__descr">GitPod is incredibly cool. In my opinion, this is a big step in open source software contribution. I'm excited to see where we go from here.</p>
+              <p class="swiper-slide__descr">
+                GitPod is incredibly cool. In my opinion, this is a big step in
+                open source software contribution. I'm excited to see where we
+                go from here.
+              </p>
               <div class="swiper-slide__user">
                 <div class="user__img">
-                  <img src="./img/user__img1.png" alt="">
+                  <img src="./img/user__img1.png" alt="" />
                 </div>
                 <div class="swiper-slide__social">
                   <h3 class="user__name">Ben Halpern</h3>
-                <div class="swiper__who">Creator and Co-founder @forem and @ThePracticalDev</div>
+                  <div class="swiper__who">
+                    Creator and Co-founder @forem and @ThePracticalDev
+                  </div>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <p class="swiper-slide__descr">Let's say we were overwhelmed how smooth @gitpod workspaces creation & own Docker image for workspaces worked. Plus, installing @code extensions from the store and integrating @gitlab CI. That blew my mind entirely, and that is hard ;)</p>
+              <p class="swiper-slide__descr">
+                Let's say we were overwhelmed how smooth @gitpod workspaces
+                creation & own Docker image for workspaces worked. Plus,
+                installing @code extensions from the store and integrating
+                @gitlab CI. That blew my mind entirely, and that is hard ;)
+              </p>
               <div class="swiper-slide__user">
                 <div class="user__img">
-                  <img src="./img/user__img2.png" alt="">
+                  <img src="./img/user__img2.png" alt="" />
                 </div>
                 <div class="swiper-slide__social">
                   <h3 class="user__name">Michael Friedrich</h3>
-                <div class="swiper__who">Developer Evangelist @GitLab</div>
+                  <div class="swiper__who">Developer Evangelist @GitLab</div>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <p class="swiper-slide__descr">Look at any PR (pull request) in a full coding environment where you can edit, build, and test the PR code, by just prepending "gitpod.io#" to the PR URL. Super useful for reviewing/testing stuff without having to check it out locally!</p>
+              <p class="swiper-slide__descr">
+                Look at any PR (pull request) in a full coding environment where
+                you can edit, build, and test the PR code, by just prepending
+                "gitpod.io#" to the PR URL. Super useful for reviewing/testing
+                stuff without having to check it out locally!
+              </p>
               <div class="swiper-slide__user">
                 <div class="user__img">
-                  <img src="./img/user__img3.png" alt="">
+                  <img src="./img/user__img3.png" alt="" />
                 </div>
                 <div class="swiper-slide__social">
                   <h3 class="user__name">Julius Volz</h3>
-                <div class="swiper__who">Creator @PrometheusIO</div>
+                  <div class="swiper__who">Creator @PrometheusIO</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__descr">
+                GitPod is incredibly cool. In my opinion, this is a big step in
+                open source software contribution. I'm excited to see where we
+                go from here.
+              </p>
+              <div class="swiper-slide__user">
+                <div class="user__img">
+                  <img src="./img/user__img1.png" alt="" />
+                </div>
+                <div class="swiper-slide__social">
+                  <h3 class="user__name">Ben Halpern</h3>
+                  <div class="swiper__who">
+                    Creator and Co-founder @forem and @ThePracticalDev
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__descr">
+                Let's say we were overwhelmed how smooth @gitpod workspaces
+                creation & own Docker image for workspaces worked. Plus,
+                installing @code extensions from the store and integrating
+                @gitlab CI. That blew my mind entirely, and that is hard ;)
+              </p>
+              <div class="swiper-slide__user">
+                <div class="user__img">
+                  <img src="./img/user__img2.png" alt="" />
+                </div>
+                <div class="swiper-slide__social">
+                  <h3 class="user__name">Michael Friedrich</h3>
+                  <div class="swiper__who">Developer Evangelist @GitLab</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p class="swiper-slide__descr">
+                Look at any PR (pull request) in a full coding environment where
+                you can edit, build, and test the PR code, by just prepending
+                "gitpod.io#" to the PR URL. Super useful for reviewing/testing
+                stuff without having to check it out locally!
+              </p>
+              <div class="swiper-slide__user">
+                <div class="user__img">
+                  <img src="./img/user__img3.png" alt="" />
+                </div>
+                <div class="swiper-slide__social">
+                  <h3 class="user__name">Julius Volz</h3>
+                  <div class="swiper__who">Creator @PrometheusIO</div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="dev__logos">
+          <img src="./img/dev-img1.svg" alt="" />
+          <img src="./img/dev-img2.svg" alt="" />
+          <img src="./img/dev-img3.svg" alt="" />
+          <img src="./img/dev-img4.svg" alt="" />
+          <img src="./img/dev-img5.svg" alt="" />
+          <img src="./img/dev-img6.svg" alt="" />
+          <img src="./img/dev-img7.svg" alt="" />
+          <img src="./img/dev-img8.svg" alt="" />
+          <img src="./img/dev-img9.svg" alt="" />
+          <img src="./img/dev-img10.svg" alt="" />
+          <img src="./img/dev-img11.svg" alt="" />
+        </div>
       </div>
     </section>
   </body>
