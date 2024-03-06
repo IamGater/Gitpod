@@ -1,21 +1,92 @@
 .start {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
-.start__container {
+.start-wrapper {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-.start__text {
+.start__title {
   color: #fff;
   font-size: 54px;
   font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
 }
-.start__cross {
-  color: #a5a3a0;
-  font-size: 54px;
+
+.start__left {
+  max-width: 642px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 60px 80px;
+}
+
+.start__right {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 60px 85px;
+}
+.start__left-title {
+  color: #202124;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.start__left-descr {
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 24px;
   font-weight: 400;
-  text-decoration-line: line-through;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.start__left-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.start__left-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  gap: 16px;
+  min-width: 290px;
+}
+.start__gitlab {
+  background: rgb(252, 109, 38);
+}
+.start__github {
+  background: rgb(0, 0, 0);
+}
+.start__bitbucket {
+  background: rgb(38, 132, 255);
+}
+.start__prefix {
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 5px;
+}
+.start__gitpod {
+  border-radius: 12px;
+  background: rgb(255, 228, 188);
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 24px;
+  font-weight: 400;
+  padding: 1px 16px;
+}
+.start__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

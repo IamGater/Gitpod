@@ -1,0 +1,21 @@
+.select {
+  padding: 150px 0;
+}
+
+.select__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.select__text {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+}
+.select__cross {
+  color: #a5a3a0;
+  font-size: 54px;
+  font-weight: 400;
+  text-decoration-line: line-through;
+}
