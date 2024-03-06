@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 .start__title {
   color: #fff;
@@ -16,30 +17,38 @@
 }
 
 .start__left {
-  max-width: 642px;
   background-color: #fff;
   border-radius: 20px;
-  padding: 60px 80px;
+  padding: 56px;
+  flex-basis: 50%;
 }
 
 .start__right {
   background-color: #fff;
   border-radius: 20px;
-  padding: 60px 85px;
+  padding: 34px;
+  flex-basis: 50%;
 }
-.start__left-title {
+.start__h2 {
   color: #202124;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
 }
 
-.start__left-descr {
+.start__p {
   color: rgba(18, 16, 12, 0.7);
   font-size: 24px;
   font-weight: 400;
   text-align: center;
+}
+
+.start__left-descr {
   margin-bottom: 60px;
+}
+
+.start__right-descr {
+  margin-bottom: 32px;
 }
 
 .start__left-wrapper {
@@ -57,7 +66,8 @@
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
   padding: 10px 30px;
   gap: 16px;
-  min-width: 290px;
+  width: 290px;
+  color: #fff;
 }
 .start__gitlab {
   background: rgb(252, 109, 38);
@@ -89,4 +99,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.lng {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  background: #f4f4f4;
+  padding: 16px;
+}
+.lng-name {
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+}
+.lng-btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 12px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: #202124;
+  padding: 8px 12px;
+}
+.lng-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
