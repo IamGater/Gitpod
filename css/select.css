@@ -19,3 +19,14 @@
   font-weight: 400;
   text-decoration-line: line-through;
 }
+@media (max-width: 756px) {
+  .select{
+    padding: 70px 0;
+  }
+  .select__cross {
+    font-size: 44px;
+  }
+  .select__text {
+    font-size: 44px;
+  }
+}

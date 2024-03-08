@@ -5,6 +5,7 @@
 .doc__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .doc__title {
@@ -19,6 +20,7 @@
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 150px;
+  max-width: 648px;
 }
 
 .doc__btn-wrapper {
@@ -46,4 +48,21 @@
 
 .doc__img {
   max-width: 590px;
+}
+@media (max-width: 1024px) {
+  .doc__img {
+    max-width: 490px;
+  }
+}
+@media (max-width: 756px) {
+  .doc {
+    padding: 50px 0;
+  }
+  .doc__img {
+    max-width: 350px;
+  }
+  .doc__descr {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
 }

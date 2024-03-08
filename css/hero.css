@@ -21,12 +21,13 @@
 .hero__descr {
   color: #e2e0dd;
   font-size: 23px;
+  max-width: 460px;
+  margin-bottom: 50px;
 }
 .hero__btn-wrapper {
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-top: 50px;
 }
 .hero__try {
   border-radius: 16px;
@@ -48,4 +49,30 @@
   display: flex;
   gap: 30px;
   margin-top: 15px;
+}
+
+@media (max-width: 1024px) {
+  .hero__title {
+    line-height: 78px;
+  }
+  .hero-bg {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 756px) {
+  .hero__title {
+    font-size: 62px;
+    line-height: 62px;
+    margin-bottom: 26px;
+  }
+  .hero-bg {
+    max-width: 375px;
+  }
+  .hero__descr {
+    margin-bottom: 25px;
+  }
+  .hero__try {
+    padding: 11px 26px;
+  }
 }

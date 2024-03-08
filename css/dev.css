@@ -53,3 +53,18 @@
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
+@media (max-width: 756px) {
+  .dev{
+    padding: 70px 0;
+  }
+  .swiper-slide__descr{
+    font-size: 14px;
+  }
+  .user__name{
+    font-size: 13px;
+  }
+  .swiper__who{
+    font-size: 13px;
+  }
+}
