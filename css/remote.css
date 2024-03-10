@@ -47,7 +47,26 @@
   padding: 7px 12px;
 }
 @media (max-width: 756px) {
-  .remote{
+  .remote {
     padding: 70px 0;
+  }
+}
+@media (max-width: 660px) {
+  .remote__title {
+    font-size: 48px;
+  }
+}
+@media (max-width: 360px) {
+  .remote__title {
+    font-size: 38px;
+  }
+  .remote__descr {
+    font-size: 18px;
+  }
+  .remote__chrom {
+    font-size: 12px;
+  }
+  .remote__firefox {
+    font-size: 12px;
   }
 }

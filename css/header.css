@@ -26,3 +26,8 @@
     gap: 28px;
   }
 }
+@media (max-width: 660px){
+  .header__list{
+    display: none;
+  }
+}

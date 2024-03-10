@@ -66,3 +66,29 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 660px) {
+  .doc__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .doc__left {
+    text-align: center;
+  }
+  .doc__btn-wrapper {
+    justify-content: center;
+  }
+  .doc__img{
+    max-width: 450px;
+  }
+}
+@media (max-width: 360px){
+  .doc__title{
+    font-size: 28px;
+  }
+  .doc__descr{
+    font-size: 17px;
+  }
+  .doc__img{
+    max-width: 340px;
+  }
+}

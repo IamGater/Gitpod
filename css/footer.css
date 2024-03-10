@@ -42,3 +42,13 @@
   display: flex;
   gap: 18px;
 }
+@media (max-width: 660px){
+  .footer__link{
+    font-size: 17px;
+  }
+}
+@media (max-width: 512px){
+  .footer__link{
+    font-size: 15px;
+  }
+}

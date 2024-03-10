@@ -68,3 +68,9 @@
     font-size: 13px;
   }
 }
+@media (max-width: 360px){
+  .dev__title{
+    font-size: 39px;
+    margin-bottom: 20px;
+  }
+}

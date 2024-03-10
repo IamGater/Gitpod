@@ -76,3 +76,23 @@
     padding: 11px 26px;
   }
 }
+
+@media (max-width: 660px) {
+  .hero {
+    padding-bottom: 50px;
+  }
+  .hero__container {
+    margin-top: 169px;
+  }
+  .hero-bg {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .hero__container {
+    margin-top: 130px;
+  }
+  .hero__try {
+    padding: 11px 17px;
+  }
+}
