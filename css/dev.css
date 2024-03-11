@@ -68,7 +68,7 @@
     font-size: 13px;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 420px){
   .dev__title{
     font-size: 39px;
     margin-bottom: 20px;

@@ -81,7 +81,7 @@
     max-width: 450px;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 420px){
   .doc__title{
     font-size: 28px;
   }

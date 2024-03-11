@@ -52,3 +52,9 @@
     font-size: 15px;
   }
 }
+@media (max-width: 420px){
+  .footer__top{
+  flex-wrap: wrap;
+  gap: 20px;
+  }
+}
