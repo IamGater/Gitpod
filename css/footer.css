@@ -42,19 +42,19 @@
   display: flex;
   gap: 18px;
 }
-@media (max-width: 660px){
-  .footer__link{
+@media (max-width: 660px) {
+  .footer__link {
     font-size: 17px;
   }
 }
-@media (max-width: 512px){
-  .footer__link{
+@media (max-width: 512px) {
+  .footer__link {
     font-size: 15px;
   }
 }
-@media (max-width: 420px){
-  .footer__top{
-  flex-wrap: wrap;
-  gap: 20px;
+@media (max-width: 420px) {
+  .footer__top {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }

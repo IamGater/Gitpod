@@ -77,18 +77,18 @@
   .doc__btn-wrapper {
     justify-content: center;
   }
-  .doc__img{
+  .doc__img {
     max-width: 450px;
   }
 }
-@media (max-width: 420px){
-  .doc__title{
+@media (max-width: 420px) {
+  .doc__title {
     font-size: 28px;
   }
-  .doc__descr{
+  .doc__descr {
     font-size: 17px;
   }
-  .doc__img{
+  .doc__img {
     max-width: 340px;
   }
 }

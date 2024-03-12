@@ -128,44 +128,44 @@
   gap: 10px;
 }
 @media (max-width: 756px) {
-  .start{
+  .start {
     padding: 70px 0;
   }
   .start-wrapper {
     flex-direction: column;
   }
 }
-@media (max-width: 420px){
-  .start__title{
+@media (max-width: 420px) {
+  .start__title {
     font-size: 39px;
     margin-bottom: 20px;
   }
-  .start__h2{
+  .start__h2 {
     font-size: 28px;
   }
-  .start__p{
+  .start__p {
     font-size: 19px;
     margin-bottom: 20px;
   }
-  .start__left-wrapper{
+  .start__left-wrapper {
     margin-bottom: 20px;
   }
-  .start__prefix{
+  .start__prefix {
     font-size: 19px;
   }
-  .start__gitpod{
+  .start__gitpod {
     font-size: 19px;
   }
-  .lng-name{
+  .lng-name {
     font-size: 12px;
   }
-  .lng-btn{
+  .lng-btn {
     font-size: 9px;
   }
-  .lng{
+  .lng {
     padding: 8px;
   }
-  .lng img{
+  .lng img {
     max-width: 24px;
     max-height: 24px;
   }

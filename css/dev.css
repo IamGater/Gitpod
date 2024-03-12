@@ -55,21 +55,21 @@
 }
 
 @media (max-width: 756px) {
-  .dev{
+  .dev {
     padding: 70px 0;
   }
-  .swiper-slide__descr{
+  .swiper-slide__descr {
     font-size: 14px;
   }
-  .user__name{
+  .user__name {
     font-size: 13px;
   }
-  .swiper__who{
+  .swiper__who {
     font-size: 13px;
   }
 }
-@media (max-width: 420px){
-  .dev__title{
+@media (max-width: 420px) {
+  .dev__title {
     font-size: 39px;
     margin-bottom: 20px;
   }
